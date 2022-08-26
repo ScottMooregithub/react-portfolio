@@ -19,14 +19,6 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section class="">
-        <div class="">
-          <h2>Welcome</h2>
-          <p>
-            Check out my Portfolio!
-          </p>
-        </div>
-      </section>
     </div>
   );
 }
