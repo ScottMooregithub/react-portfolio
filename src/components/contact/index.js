@@ -64,7 +64,7 @@ function Contact() {
 
         <div className="">
           <h3>Contact Me</h3>
-          <form className="">
+          <form className="contact-form">
             <label for="contact-name">Your Name</label>
             <input
               value={userName}
