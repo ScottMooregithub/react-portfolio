@@ -49,6 +49,7 @@ footer {
     padding: 0px 20px
 }
 
+/*about*/
 .about {
     text-align:left;
     font-family:"Inter";
@@ -68,4 +69,37 @@ footer {
 .sarahs {
     padding-top:60px;
     padding-bottom:200px;
+}
+/*end about*/
+
+.Work {
+    text-align:left;
+    font-family:"Inter";
+}
+
+.sphere-text {
+    font-size:21px;
+    font-family:"Inter";
+    line-height:160%
+}
+
+.sphere-title {
+    font-family:"Inter";
+    font-weight:bold;
+}
+
+.sphere-section {
+    padding-top:60px;
+    padding-bottom:200px;
+}
+
+.sphere-pic {
+    height:100%;
+    width:100%;
+    margin-right:400px
+}
+
+.group-sphere {
+    display:flex;
+    justify-content:space-evenly;
 }
