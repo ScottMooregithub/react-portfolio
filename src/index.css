@@ -1,128 +1,126 @@
 body {
-    margin:0;
+  margin: 0;
 }
 
 /* nav */
 .header {
-   display: flex;
-   justify-content:space-between;
-   background-color:#BFD0E5 ;
-   align-items:center;
-   padding:0px 20px; 
-
+  display: flex;
+  justify-content: space-between;
+  background-color: #bfd0e5;
+  align-items: center;
+  padding: 0px 20px;
 }
 
 .name {
-    margin-right: 250px;
-    margin-bottom: 0px;
-    font-family: Sans-serif;
+  margin-right: 250px;
+  margin-bottom: 0px;
+  font-family: Sans-serif;
 }
 
 .nav-ul {
-    display:flex;
-    list-style-type:none;
-    
+  display: flex;
+  list-style-type: none;
 }
 
 .nav-li {
-    padding:40px;
-    font-size:16px;
-    font-family: Sans-serif;
+  padding: 40px;
+  font-size: 16px;
+  font-family: Sans-serif;
 }
 .nav-li a {
-    text-decoration:none;
-    color:#0F417F;
-    font-family:"Inter";
-    letter-spacing:1px;
-    font-weight:1000;
-
+  text-decoration: none;
+  color: #0f417f;
+  font-family: "Inter";
+  letter-spacing: 1px;
+  font-weight: 1000;
 }
 
-#root{
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 /*fix header*/
 main {
-    padding:0px 20px;
-    max-width: 700px;
-    margin:0 auto;
-    flex-grow:1;
+  padding: 0px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-grow: 1;
 }
 /*fix footer*/
 footer {
-    padding: 0px 20px
+  padding: 0px 20px;
 }
 
 /*about*/
 .about {
-    text-align:left;
-    font-family:"Inter";
+  text-align: left;
+  font-family: "Inter";
 }
 
 .group-photo {
-    display:flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .aboutMe {
-    font-size:21px;
-    font-family:"Inter";
-    line-height:160%
+  font-size: 21px;
+  font-family: "Inter";
+  line-height: 160%;
 }
 
 .sarahs {
-    padding-top:60px;
-    padding-bottom:200px;
+  padding-top: 60px;
+  padding-bottom: 200px;
 }
 /*end about*/
 
 .Work {
-    text-align:left;
-    font-family:"Inter";
+  text-align: left;
+  font-family: "Inter";
 }
 
-.sphere-text {
-    font-size:21px;
-    font-family:"Inter";
-    line-height:160%
+.project-text {
+  font-size: 21px;
+  font-family: "Inter";
+  line-height: 160%;
 }
 
-.sphere-title {
-    font-family:"Inter";
-    font-weight:bold;
+.project-title {
+  font-family: "Inter";
+  font-weight: bold;
 }
 
-.sphere-section {
-    padding-top:60px;
-    padding-bottom:200px;
+.project-section {
+  padding-top: 60px;
+  padding-bottom: 200px;
 }
 
-.sphere-pic {
-    height:100%;
-    width:100%;
-    margin-right:400px
+.project-pic {
+  object-fit: cover;
+  width: 250px;
 }
 
-.group-sphere {
-    display:flex;
-    justify-content:space-evenly;
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .contact-group {
-    display:flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-form {
-    display:flex;
-    flex-direction:column;
-    max-width:250px
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
 }
 
-.contact-form input, textarea {
-    margin-bottom:12px;
-    padding:4px 6px;
-    margin-top:4px;
+.contact-form input,
+textarea {
+  margin-bottom: 12px;
+  padding: 4px 6px;
+  margin-top: 4px;
 }
