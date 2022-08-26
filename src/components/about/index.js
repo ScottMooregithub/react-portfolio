@@ -2,13 +2,13 @@ import React from "react";
 import profilepic from "../../assets/img/scott128.png"
 function About() {
   return (
-    <section id="about-me" className="sarahs">
-      <div class="">
+    <section className="sarahs">
+      <div>
         <h1 id="about" className="about">
           About Me
         </h1>
       </div>
-      <div className="">
+      <div>
         <div class="group-photo">
           
           <p className="aboutMe">
@@ -20,7 +20,7 @@ function About() {
             realized firefighting was not my passion and so here I am! coding a
             portfolio using react. 
           </p>
-          <div class="">
+          <div>
             <img src={profilepic}  />
           </div>
         </div>

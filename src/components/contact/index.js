@@ -42,12 +42,12 @@ function Contact() {
   };
 
   return (
-    <section id="reach-out" className="">
-      <div className="">
-        <h2 className="">Contact</h2>
+    <section>
+      <div>
+        <h2>Contact</h2>
       </div>
 
-      <div className="">
+      <div>
         <div>
           <h3>Hello {userName}</h3>
           <p>Reach out to me</p>
@@ -62,7 +62,7 @@ function Contact() {
           </address>
         </div>
 
-        <div className="">
+        <div>
           <h3>Contact Me</h3>
           <form className="contact-form">
             <label for="contact-name">Your Name</label>
@@ -101,7 +101,7 @@ function Contact() {
         </div>
         {errorMessage && (
           <div>
-            <p className="">{errorMessage}</p>
+            <p>{errorMessage}</p>
           </div>
         )}
       </div>

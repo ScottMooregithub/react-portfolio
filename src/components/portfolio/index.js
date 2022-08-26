@@ -4,8 +4,8 @@ import sphereImage from "../../assets/img/sphere.png";
 function Portfolio() {
   return (
     <div>
-      <section id="" className="sphere-section">
-        <div className="flex-row">
+      <section  className="sphere-section">
+        <div>
           <h2 className="Work">Work</h2>
         </div>
 
